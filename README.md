@@ -13,7 +13,6 @@ Let me speak from my ♥ :
 
 ```js
 const kotiasv = {
-  auth: process.env.TOKEN,
   position: "Moscow", 
   height: "178cm",
   display: "boy",
