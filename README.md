@@ -2,12 +2,13 @@
    <img src="index.png" width="300">
 </div>
 
-<h2 align="center">
+<h3 align="center">
   Hey there, I'm Vlad!&nbsp;
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h3>
+<br />
 
-### About me :
+## About me :
 
 Let me speak from my ♥ :
 
