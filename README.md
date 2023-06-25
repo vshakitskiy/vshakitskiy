@@ -22,12 +22,12 @@ const kotiasv = {
 }
 ```
 
-Also :
+### Also :
 
 - 🏛 I am currently a student of **IThub College**.
 - 💻 Major is **Computer Science and Technology**.
 - 🌱 I'm currently learning **Web Development and English**. 
-- 🤔 My hobbies are **playing games, chilling with friends**.
+- 🤔 My hobbies are **playing games, chatting with friends**.
 
 
 ## Stats :
@@ -38,5 +38,9 @@ Also :
 </div>
 
 
-## Learning :
-[![My Skills](https://skillicons.dev/icons?i=git,js,ts,nodejs,react,tailwind,vscode,postman&theme=dark)](https://skillicons.dev)
+## Skills :
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,js,ts,nodejs,react,tailwind,vscode,postman,graphql,express,nextjs,mongodb,vercel&theme=dark" />
+  </a>
+</p>
