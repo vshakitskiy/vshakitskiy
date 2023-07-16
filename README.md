@@ -42,5 +42,6 @@ const kotiasv = {
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,js,ts,nodejs,react,tailwind,vscode,postman,graphql,express,nextjs,mongodb,vercel&theme=dark" />
+     <img src="https://github.com/kotiasv/kotiasv/assets/54102609/77dafde5-d0ca-4384-8a0a-e59a079b69ee" width="48" />
   </a>
 </p>
