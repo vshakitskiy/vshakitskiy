@@ -37,6 +37,9 @@ const kotiasv = {
   <a href="http://www.github.com/kotiasv"><img width="50%" src="https://github-readme-stats.vercel.app/api?username=kotiasv&show_icons=true&title_color=ef4444&text_color=000000&icon_color=f97316&bg_color=ffffff&hide_border=true&show_icons=true" alt="kotiasv's GitHub stats" /></a>
 </div>
 
+<br />
+
+![Hits](https://hits-app.vercel.app/hits?url=https://github.com/kotiasv)
 
 ## Skills :
 <p align="center">
