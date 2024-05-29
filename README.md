@@ -11,7 +11,7 @@ Currently learning [Gleam](https://gleam.run/) and [Elixir](https://elixir-lang.
 ```js
 const vshakitskiy = {
    age: 17,
-   display: boy,
+   display: "boy",
    pronouns: ["he", "his"],
    height: "178cm",
    position: {
