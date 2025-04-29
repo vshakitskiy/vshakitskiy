@@ -1,4 +1,4 @@
-![wiskiy](./wiskiy.png)
+![wiskiy](./static/wiskiy.png)
 
 ### About Me:
 ```ts
