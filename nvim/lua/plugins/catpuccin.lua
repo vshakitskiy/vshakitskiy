@@ -1,4 +1,14 @@
-opts = {
+local opts = {
+  integrations = {
+    neotree = true,
+  },
+  custom_highlights = function(colors)
+    return {
+      NeoTreeDirectoryName = { fg = colors.pink },
+      NeoTreeDirectoryIcon = { fg = colors.pink },
+      NeoTreeRootName = { fg = colors.pink },
+    }
+  end,
   color_overrides = {
     mocha = {
       text = "#F4CDE9",
@@ -15,11 +25,11 @@ opts = {
       mantle = "#211924",
       crust = "#1a1016",
     },
-  } 
+  },
 }
 
-function init()
-  vim.cmd.colorscheme "catppuccin"
+local function init()
+  vim.cmd.colorscheme("catppuccin")
 end
 
 return {
@@ -30,4 +40,3 @@ return {
   name = "catppuccin",
   priority = 1000,
 }
-
