@@ -1,14 +1,17 @@
 local opts = {
-  integrations = {
-    neotree = true,
-  },
   custom_highlights = function(colors)
     return {
       NeoTreeDirectoryName = { fg = colors.pink },
       NeoTreeDirectoryIcon = { fg = colors.pink },
       NeoTreeRootName = { fg = colors.pink },
+      TelescopePromptBorder = { fg = colors.pink },
+      TelescopePromptTitle = { fg = colors.pink },
+      TelescopeBorder = { fg = colors.pink },
     }
   end,
+  integrations = {
+    neotree = true,
+    },
   color_overrides = {
     mocha = {
       text = "#F4CDE9",
