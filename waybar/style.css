@@ -49,6 +49,7 @@
 #pulseaudio,
 #custom-lock,
 #custom-power,
+#custom-vpn,
 #language {
   background-color: @surface0;
   padding: 0.5rem 1rem;
@@ -63,6 +64,7 @@
 
 #battery {
   color: @green;
+  border-radius: 0px 1rem 1rem 0px;
 }
 
 #battery.charging {
@@ -75,10 +77,7 @@
 
 #backlight {
   color: @yellow;
-}
-
-#backlight, #battery {
-    border-radius: 0;
+  border-radius: 1rem 0px 0px 1rem;
 }
 
 #pulseaudio {
@@ -94,8 +93,21 @@
 }
 
 #custom-lock {
+    margin-left: 1rem;
     border-radius: 1rem 0px 0px 1rem;
     color: @lavender;
+}
+
+#custom-vpn {
+  border-radius: 1rem;
+}
+
+#custom-vpn.connected {
+  color: @green;
+}
+
+#custom-vpn.disconnected {
+  color: @red;
 }
 
 #custom-power {

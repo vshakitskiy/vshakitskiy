@@ -3,7 +3,7 @@
     "position": "top", // Waybar position (top|bottom|left|right)
     // "width": 1280, // Waybar width
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces"],
+    "modules-left": ["hyprland/workspaces", "custom/vpn"],
     "modules-center": ["hyprland/language","custom/music", "pulseaudio", "clock"],
     "modules-right": ["backlight", "battery", "tray", "custom/lock", "custom/power"],
     "hyprland/workspaces": {
@@ -23,6 +23,14 @@
         "format": "{}",
         "format-en": "en",
         "format-ru": "ru"
+    },
+    "custom/vpn": {
+        "format": "{text}",
+        "tooltip": true,
+        "return-type": "json",
+        "exec": "bash ~/.config/waybar/vpn.sh",
+        "interval": 5,
+        "on-click": "pkexec /usr/local/bin/__vpn_manager toggle -n"
     },
     "custom/music": {
         "format": "  {}",
