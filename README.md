@@ -1,1 +1,1 @@
-![wiskiy](./static/wiskiy.png)
+![wiskiy](./static/wiskiy.jpg)
